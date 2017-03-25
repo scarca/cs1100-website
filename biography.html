@@ -43,7 +43,7 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Raj Shrimali</a>
+                <a class="navbar-brand page-scroll" href="index.html#page-top">Raj Shrimali</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -53,10 +53,10 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="index.html#resume">Resume</a>
+                        <a class="page-scroll" href="index.html">Home</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="index.html#skills">Skills</a>
+                        <a class="page-scroll" href="index.html#resume">Resume</a>
                     </li>
                     <li>
                         <a href="portfolio.html">Portfolio</a>
@@ -92,35 +92,38 @@
             </div>
         </div>
     </header>
-    <!-- Resume Section -->
-    <section id="resume" style="background-color:#eaeaea">
+
+    <!-- About Section -->
+    <section id="about">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Resume</h2>
-                    <h3 class="section-subheading">If you're in a hurry, you can download it <a href="files/res_uptodate.pdf"> here.</a></h3>
+                    <h2 class="section-heading">About</h2>
+                    <h3 class="section-subheading text-muted">A bit about me</h3>
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-12 text-center">
-                    <div class="embed-responsive embed-responsive-4by3">
-                        <object data="files/res_uptodate.pdf" type="application/pdf">
-                            Seems like you're on mobile... we can't embed the PDF, but you can always download it <a href="files/res_uptodate.pdf"> here.</a>
-                        </object>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <br />
-                    <br />
-                    <a href="#skills" class="page-scroll btn btn-xl">What else is there?</a>
+                <div class="col-md-6">
+                    <h3 class="text-center">Summary</h3>
+                    <p>
+                        I am a first year Computer Science student at the Georgia Institute of Technology. My academic passions are
+                        machine learning, artificial intelligence, and data analysis. My extracurricular passion is increasing the
+                        accessibility of knowledge and education. My ultimate goal is to use computer science to enable higher levels
+                        of productivity and educational achievement for those in need. <br /><br />
 
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <h3 class="text-center">Quick Facts</h3>
+                    <p><b>Name:</b> Raj Shrimali</p><br />
+                    <p><b>Hometown:</b> Delhi, India, but grew up in Ashburn, VA</p><br />
+                    <p><b>Education:</b> Georgia Tech CS graduating 2020</p><br />
                 </div>
             </div>
         </div>
+
     </section>
-    <!-- Services Section -->
+
     <section id="skills">
         <div class="container">
             <div class="row">
@@ -134,8 +137,8 @@
                     <span class="fa-stack fa-4x">
                         <img src="img/misc/Gear_icon.svg" />
                     </span>
-                    <h4 class="service-heading">Backend</h4>
-                    <p class="text-muted">I have a bit of experience using NodeJS to throw together quick REST API's. I also use Python and Golang to talk to databases such as MongoDB. </p>
+                    <h4 class="service-heading">Full-Stack Dev</h4>
+                    <p class="text-muted">I have used NodeJS, Django, and PHP in combination with databases such as MongoDB and Postgres to create a wide variety of full-stack apps</p>
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
@@ -155,116 +158,12 @@
             </div>
         </div>
     </section>
-
-    <!-- Portfolio Grid Section -->
-    <section id="portfolio" class="bg-light-gray">
+    <section id="timeline">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Portfolio</h2>
-                    <h3 class="section-subheading text-muted">Some things I've worked on</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/campaign_clarity.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Campaign Clarity</h4>
-                        <p class="text-muted">Using Python data processing to get insights about money in politics. </p>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/TicTacCeption.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Tic Tac Ception</h4>
-                        <p class="text-muted">A multi-layerd tic-tac-toe game, written in all Javascript, HTML5, and CSS. Hosted <a href="https://scarca.github.io/TicTacCeption/">here</a>. </p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/swic.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>SWIC</h4>
-                        <p class="text-muted">A C++ Command line app that provides a stopwatch, timer, and clock utilities</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/tampermonkey.png" class="img-responsive" alt="" />
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Quick Macro</h4>
-                        <p class="text-muted">A tampermonkey plugin to let you make hotkeys for the web, to make typing just a little bit easier. Hosted <a href="quick_macro.html">here</a>. </p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/fitso.png" class="img-responsive" alt="fitso logo" />
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Fitso</h4>
-                        <p class="text-muted">Android App + NodeJS backend, connecting those who would like to play a sport together.</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/Random_font_awesome.svg.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Random Groups</h4>
-                        <p class="text-muted">Created for my teacher, a quick app to pair people in class together! Available <a href="http://rajshrimali.com/Random-Groups">here</a>.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <section id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">About</h2>
-                    <h3 class="section-subheading text-muted">A little more about me</h3>
+                    <h2 class="section-heading">Timeline</h2>
+                    <h3 class="section-subheading text-muted">Where I come from</h3>
                 </div>
             </div>
             <div class="row">
